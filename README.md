@@ -47,5 +47,5 @@ This platform allows users to **share experiences, network, and support** each o
 
 ---
 
-## 📂 Project Structure  
+
 
