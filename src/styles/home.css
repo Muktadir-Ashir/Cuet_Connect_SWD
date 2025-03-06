@@ -1,0 +1,47 @@
+/* 🌟 General Styling */
+.home-container {
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* 🎡 Hero Section (Welcome Message) */
+.hero-section {
+  background: url('../assets/home-bg.jpeg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+/* 📖 About Section */
+.about-section {
+  padding: 40px 20px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+}
+
+/* 🔗 Quick Links */
+.quick-links {
+  padding: 30px;
+}
+
+.quick-links a {
+  font-size: 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.quick-links a:hover {
+  opacity: 0.85;
+}
+
+/* 🏁 Footer */
+.footer {
+  background: #6a0dad; /* Matches Navbar Theme */
+  padding: 15px;
+  color: rgb(6, 5, 5);
+}

@@ -1,0 +1,50 @@
+/* 🔹 Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* ✅ Aligns left & right sections */
+  align-items: center;
+  background-color: #6a0dad; /* Dark Purple */
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+/* 🔹 Left section (Home, Newsfeed, etc.) */
+.nav-left {
+  display: flex;
+  gap: 20px;
+}
+
+/* 🔹 Right section (Logout, Login, Register) */
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* 🔹 Style for links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* 🔹 Logout Button */
+.logout-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.logout-button:hover {
+  background: darkred;
+}

@@ -1,0 +1,28 @@
+/* 🔹 Newsfeed Background */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #f8f9fa5a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 🔹 Newsfeed Title */
+.bg-purple {
+  background-color: #6a0dad !important; /* Matches the navbar color */
+}
+
+/* 🔹 Post Form */
+.card {
+  border-radius: 10px;
+}
+
+/* 🔹 Post Button */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #5c9769;
+}

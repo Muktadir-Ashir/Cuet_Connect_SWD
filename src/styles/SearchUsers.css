@@ -1,0 +1,49 @@
+/* 🌟 Search Container */
+.search-container {
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔎 Search Input & Button */
+.input-group {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* 🏆 Profile Image */
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 📑 List Group */
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 💬 User Role */
+.text-muted {
+  font-size: 14px;
+}
+
+/* 🏢 Organization */
+.text-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ✅ Button Styling */
+.btn-success {
+  font-size: 14px;
+  padding: 8px 12px;
+}

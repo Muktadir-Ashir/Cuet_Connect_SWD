@@ -1,0 +1,30 @@
+/* 🎨 Post Card Styling */
+.post-card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 🖼 Profile Picture */
+.profile-pic {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* 🖼 Post Image */
+.post-image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* 🎨 Post Header Background */
+.bg-primary {
+  background-color: #6a0dad !important; /* Matching navbar theme */
+}
+
+/* ❤️ Like Button */
+.like-button {
+  min-width: 80px;
+  text-align: center;
+}

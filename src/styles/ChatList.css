@@ -1,0 +1,81 @@
+/* ChatList Container */
+.chat-list-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* Title Styling */
+.chat-list-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Chat List */
+.chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Chat Item */
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.chat-item:hover {
+    background: #f5f5f5;
+}
+
+/* Profile Picture */
+.chat-profile-pic {
+    width: 50px;  /* Reduced size */
+    height: 50px; /* Reduced size */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+    border: 2px solid #ddd;
+}
+
+/* Chat Info */
+.chat-info {
+    flex-grow: 1;
+}
+
+/* Chat Name */
+.chat-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Last Message */
+.chat-last-message {
+    font-size: 14px;
+    color: #666;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 280px;
+}
+
+/* No Chats Message */
+.no-chats {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin-top: 20px;
+}
